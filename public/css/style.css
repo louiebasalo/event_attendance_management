@@ -1,0 +1,91 @@
+
+
+/*position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px*/
+
+html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 60px;
+            }
+
+            .links  {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                /*text-transform: uppercase;*/
+                margin-bottom: 10px
+            }
+            #setup{
+                font-size: 13px
+            }
+            .m-b-md {
+                margin-bottom: 10px;
+            }
+.paper{
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	min-width:0;
+	height: 550px;
+	word-wrap:break-word;
+	background-color:#fff;
+	background-clip:border-box;
+	border:1px solid rgba(0,0,0,.050);
+	box-shadow: rgba(0,20,100,.200) 7px 10px 3px;
+	/*border-radius:.25rem*/
+}
+
+.paper-header{
+	padding:.75rem 1.25rem;
+	margin-bottom:0;
+	/*background-color:rgba(0,0,0,.03);*/
+	text-align: center;
+	border-bottom:1px solid rgba(0,0,0,.125)
+}
+
+.idpic
+{
+	margin-left: 5px;
+	width: 150px;
+	height: 150px; 
+	background-color: #f2c2b2; 
+	border:5px solid rgb(255,255,255);
+	box-shadow: rgba(0,20,100,.200) 7px 7px 3px;
+	border-radius: 100px;
+	position: absolute;
+
+}
